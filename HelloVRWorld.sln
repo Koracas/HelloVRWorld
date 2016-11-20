@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloVRWorld.CSharp", "HelloVRWorld.CSharp.csproj", "{1C29F5D4-9D4A-221C-BC65-4355AA6A9B1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloVRWorld.CSharp.Editor", "HelloVRWorld.CSharp.Editor.csproj", "{7A0451F1-59EA-17BC-5DB7-89D3E874D7C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C29F5D4-9D4A-221C-BC65-4355AA6A9B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C29F5D4-9D4A-221C-BC65-4355AA6A9B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C29F5D4-9D4A-221C-BC65-4355AA6A9B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C29F5D4-9D4A-221C-BC65-4355AA6A9B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0451F1-59EA-17BC-5DB7-89D3E874D7C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0451F1-59EA-17BC-5DB7-89D3E874D7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0451F1-59EA-17BC-5DB7-89D3E874D7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0451F1-59EA-17BC-5DB7-89D3E874D7C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
