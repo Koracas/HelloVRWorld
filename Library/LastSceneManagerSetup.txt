@@ -1,4 +1,4 @@
 sceneSetups:
-- path: D:/Unity/YoutubeVive/Assets/Scene1.unity
+- path: Assets/helloVRWorld.unity
   isLoaded: 1
   isActive: 1
