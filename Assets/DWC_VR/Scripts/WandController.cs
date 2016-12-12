@@ -75,14 +75,14 @@ public class WandController : SteamVR_TrackedController
                 if (Physics.Raycast(startPos, transform.forward, out hit, 1000.0f))
                 {
                     lineRendererVertices[1] = hit.point;                    
-                    //Debug.Log("[Update] :: Hit : " + hit.collider.gameObject.name);
+                    Debug.Log("[Update] :: Hit : " + hit.collider.gameObject.name);
 
                     if( hit.collider.gameObject.name == "Plane")
                     {
                         rayHitPlane = true;
                         raySCObjCollision = false;
                     }
-                    else if (hit.collider.gameObject.tag == "Heart")
+                    else if (hit.collider.gameObject.tag == "Heart" || hit.collider.gameObject.tag == "ArcReactor")
                     {                        
                         rayHitShowcaseObj = true;
                         raySCObjCollision = true;
